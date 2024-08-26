@@ -26,3 +26,30 @@ const myFxn= function(){
 console.log(typeof myFxn);
 console.log(typeof myObj);
 console.log(typeof hero);
+
+//----------
+
+//Stack memory (Primitive) 
+//Heap memory (Non-Primitive) 
+
+//Stack allocation -> makes a copy
+let txt1= "hello"
+let another = txt1
+another = "edit"
+
+console.log(txt1);
+console.log(another);
+
+//Heap allocation -> references the location
+let user={
+    email: "djfh@fj.com",
+    upi: "ram@oksbi"
+}
+
+let user2= user // reference to same location
+
+user2.email= "simar@gmail.com"
+
+console.log(user.email);
+console.log(user2.email);
+
