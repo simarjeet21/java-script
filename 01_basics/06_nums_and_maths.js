@@ -1,16 +1,16 @@
-// const income = 400 
-// console.log(income);
+const income = 400 
+console.log(income);
 
-// const balance = new Number(100);
-// console.log(balance);
+const balance = new Number(100);
+console.log(balance);
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(2)); // 2 precision values
+console.log(balance.toString().length);
+console.log(balance.toFixed(2)); // 2 precision values
 
-// const round= 23.8903
-// console.log(round.toPrecision(3));
-// const round2= 123.8903
-// console.log(round2.toPrecision(3));
+const round= 23.8903
+console.log(round.toPrecision(3));
+const round2= 123.8903
+console.log(round2.toPrecision(3));
 
 /////////// MATHS///////////
 
