@@ -20,9 +20,9 @@ const arrr= [3,[4,5,6],[1,0],[2,[0,[0]]]]
 const flattt= arrr.flat(Infinity)
 console.log(flattt);
 
-//check isArray 
+//check if its Array -> Array.isArray ()
 console.log(Array.isArray("SIMAR-JEET"))
-//convert to array
+//convert to array -> Array.from()
 console.log(Array.from("SIMAR-JEET"));
 console.log(Array.from({name:"SIM"})); //interesting -> empty set coz not specified key or value 
 
