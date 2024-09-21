@@ -8,6 +8,7 @@ tinderUser.isLoggedIn= false
 console.log(tinderUser);
 
 const regularUser = {
+    email: "simar@google.com",
     fullName: {
         userFullName:{
             firstName: "SIMAR",
@@ -49,13 +50,18 @@ console.log(Object.values(tinderUser));
 const course = {
     courseName:"copywriting",
     brand: "Danlok",
-    instructor: "Adam"
+    instructor: "Adam",
+    price: "20,000"
 }
 
 // course.instructor is a long way to use repeatedly -> deconstruct
 const {instructor} = course
 console.log(instructor);
 
+const {price: rate} = course
+console.log(rate);
+
+//API's -> apna kaam kisi aur se karvana
 //json -> java script object notation
 [
     {},

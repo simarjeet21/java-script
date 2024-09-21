@@ -18,6 +18,7 @@ console.log((user.age));
 console.log(user["age"]);
 //dont prefer user. instead user[""]
 console.log(user["full Name"]);
+
 // [key] is format to assign in user for object as data type
 console.log(user[mySym]);
 console.log(typeof mySym);
@@ -34,11 +35,11 @@ console.log(user);
 user.greetings = function(){
     console.log("happy coding");
 }
-console.log(user.greetings);
-console.log(user.greetings());
+console.log(user.greetings); //function just gets referenced
+console.log(user.greetings()); //fucntion executes
 
 user.greetings2 = function(){
-    console.log(`happy coding, ${this.name}`);
+    console.log(`happy coding, ${this.name}`); //string interpolation `` and ${var} for variable
 }
 console.log(user.greetings2());
 
